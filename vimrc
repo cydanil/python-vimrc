@@ -239,3 +239,9 @@ let g:ycm_confirm_extra_conf=0
 
 nmap <leader>g :YcmCompleter GoTo<CR>
 nmap <leader>d :YcmCompleter GoToDefinition<CR>
+
+"=====================================================
+"" HTML settings
+"=====================================================
+autocmd FileType html,css set tabstop=2
+autocmd FileType html,css set shiftwidth=2
